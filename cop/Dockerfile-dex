@@ -1,0 +1,13 @@
+FROM jasmith590/cop:latest
+
+#
+# dex cop:dex
+#
+
+
+#
+# v1 dex-api
+#
+
+LABEL \
+  org.dockerland.dex.api="v1"
