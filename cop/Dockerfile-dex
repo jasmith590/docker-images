@@ -10,4 +10,5 @@ FROM jasmith590/cop:latest
 #
 
 LABEL \
-  org.dockerland.dex.api="v1"
+  org.dockerland.dex.api="v1" \
+  org.dockerland.dex.docker_envars="COP_*"
